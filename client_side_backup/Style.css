@@ -1,0 +1,354 @@
+   html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body
+{
+  position: relative;
+  margin: 0;
+  padding-bottom: 8rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #f4a742;
+}
+.navbar a
+{
+  color: white;
+}
+.icon-bar
+{
+  background: white;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+        font-weight: bold;
+        background-color: transparent !important;
+  }
+.homebuttons
+{
+  width: 350px;
+  max-width: 100%;
+  height: 350px;
+  padding-top: 30px;
+  margin-top: 25px;
+  border-radius: 20px;
+  background: #FBF2C8;
+}
+.homebuttons button
+{
+  width: 60%;
+  margin: 5%;
+  background: #f48c04;
+  color: white;
+  font-weight: bold;
+}
+.homebuttons button:hover
+{
+  background: #f4a742;
+}
+.heading
+{
+  font-family: Lucida Console;
+}
+/* Login Css Goes Here.. */
+    .navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+.submitAd
+{
+  width: 100%;
+  max-width: 100%;
+  padding-top: 30px;
+  border-radius: 8px;
+  background: #f1f1f1;
+}
+.submitAdInner
+{
+  width: 90%;
+  margin-left: 5%;
+}
+.submitAdInner label span
+{
+  color: #C91414;
+}
+#submit_an_ad
+{
+  margin-top: 0;
+  border: 1px solid #c5c7c9;
+  height: 50px;
+  padding-top: 17px;
+  border-radius: 6px;
+}
+#title_category
+{
+  margin-top: 0;
+  border: 1px solid #c5c7c9;
+  padding-top: 17px;
+  border-radius: 6px;
+}
+#filters
+{
+  width: 94%;
+  margin-left: 3%;
+  border: 1px solid #c5c7c9;
+  border-radius: 6px;
+  background: #B0CFDA;
+  text-align: left;
+}
+ #searchDiv button
+{
+  width: 70%;
+  margin-top: 10px;
+  background: #f48c04;
+  font-weight: bold;
+  color: white;
+}
+#searchDiv button:hover
+{
+  background: #f4a742;
+  color: black;
+}
+.filterslabel
+{
+  font-size: 13px;
+
+}
+.adButton button
+{
+  width: 60%;
+  margin: 5%;
+  background: #f48c04;
+  color: white;
+  font-weight: bold;
+}
+.adButton button:hover
+{
+  background: #f4a742;
+}
+#adDetail
+{
+  width: 90%;
+}
+#adDetail a
+{
+  color: white;
+}
+#ads
+{
+  width: 94%;
+  margin-left: 3%;
+  border-radius: 1px solid #bbbec1;
+  text-align: left;
+}
+#image
+{
+  width: 270px;
+  max-width: 100%;
+  height: 120px;
+}
+#image2
+{
+  width: 600px;
+  max-width: 100%;
+  height: 300px;
+}
+.titleofad
+{
+  text-align: left;
+  margin-left: 10%;
+}
+#adPrice
+{
+    color: white; 
+    text-align: center; 
+    background: #F4A742; 
+    height: 80px; 
+    margin: 15px;
+    padding-top: 20px;
+    border-radius: 8px;
+}
+#hr
+{
+  background: #F4A742;
+  width: 80%;
+  margin-left: 10%;
+  height: 2px;
+}
+.bottom
+{
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+.editdeletebuttons button
+{
+  width: 100%;
+  margin-top: 15%;
+}
+/* Profile Edit Button CSS */
+.img-overlay {
+  position: absolute;
+  top: 70%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #F48C04;
+      color: white;
+      padding: 15px;
+      height: 70px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    .sidenav a
+    {
+      color: white;
+    }
+    .button {
+  display: inline-block;
+  border-radius: 7px;
+  background-color: #f4511e;
+  text-align: center;
+  padding: 20px;
+  width: 20em;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonsdiv
+{
+  margin-top: 10%;
+  margin-left: 13%;
+}
+.bg {
+    /* The image used */
+    background-image: url("background.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  padding-left: 10%;
+  background-color:#443;
+  color: white;
+}
+/*Profile CSS */
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+.well-sm
+{
+  margin-top: 10%;
+}
+/* Profile Edit Button CSS */
+.img-overlay {
+  position: absolute;
+  top: 70%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+.secondButton
+{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#profileEditButton
+{
+  display: none; width: 50%; margin-left: 5%;
+}
+
+#aboutus
+{
+  padding-top: 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+  background: #FBF2C8;
+}

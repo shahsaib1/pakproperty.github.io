@@ -1,0 +1,156 @@
+   html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body
+{
+  position: relative;
+  margin: 0;
+  padding-bottom: 8rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #91afbc;
+}
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    .sidenav a
+    {
+      color: white;
+    }
+    .button {
+  display: inline-block;
+  border-radius: 7px;
+  background-color: #f4511e;
+  text-align: center;
+  padding: 20px;
+  width: 20em;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.buttonsdiv
+{
+  margin-top: 10%;
+  margin-left: 13%;
+}
+.bg {
+    /* The image used */
+    background-image: url("background.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  padding-left: 10%;
+  background-color:#443;
+  color: white;
+}
+/*Profile CSS */
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+.well-sm
+{
+  margin-top: 10%;
+}
+/* Profile Edit Button CSS */
+.img-overlay {
+  position: absolute;
+  top: 70%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+.secondButton
+{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#profileEditButton
+{
+  display: none; width: 50%; margin-left: 5%;
+}
+
+
